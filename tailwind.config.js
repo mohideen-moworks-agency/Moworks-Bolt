@@ -21,27 +21,9 @@ export default {
       },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
-        handdrawn: ['Architects Daughter', 'cursive'],
-      },
-      borderWidth: {
-        '3': '3px',
-      },
-      boxShadow: {
-        'drawn': '3px 3px 0 rgb(44, 62, 80)',
-        'drawn-lg': '4px 4px 0 rgb(44, 62, 80)',
-        'drawn-xl': '6px 6px 0 rgb(44, 62, 80)',
+        playful: ['Josefina Sans', 'sans-serif'],
       },
     },
   },
-  safelist: [
-    'coral-gradient',
-    'paper-card',
-    'button-handdrawn',
-    'input-handdrawn',
-    'table-handdrawn',
-    {
-      pattern: /(bg|text|border)-coral-(50|100|200|300|400|500|600|700|800|900)/,
-    },
-  ],
   plugins: [],
 };
